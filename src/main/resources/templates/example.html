@@ -14,8 +14,8 @@
 			<th>AGE</th>
 		</tr>
 	</thead>
-	<tbody th:each="person : ${people}">
-		<tr>
+	<tbody >
+		<tr th:each="person : ${people}">
 			<th th:text="${person.name}"></th>
 			<th th:text="${person.age}"></th>
 		</tr>
